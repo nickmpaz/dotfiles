@@ -9,7 +9,6 @@ export ZSH="/home/npaz/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 HYPHEN_INSENSITIVE="true"
 DISABLE_UPDATE_PROMPT="true"
-ENABLE_CORRECTION="true"
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
