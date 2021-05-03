@@ -1,0 +1,150 @@
+{
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.jqlList": [
+    {
+      "enabled": true,
+      "id": "e7175aa8-6ad8-4fc8-85bc-7f992a29a880",
+      "monitor": true,
+      "name": "My treeline Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "63c2243e-5886-438e-a1e0-3661886cddc3"
+    }
+  ],
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDragAndDrop": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "python.languageServer": "Pylance",
+  "python.showStartPage": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  // vim.incsearch": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    // {
+    //   "after": ["k", "k", "k", "k", "k"],
+    //   "before": ["up"]
+    // },
+    // {
+    //   "after": ["j", "j", "j", "j", "j"],
+    //   "before": ["down"]
+    // },
+    // {
+    //   "after": ["b", "b", "b", "b", "b"],
+    //   "before": ["left"]
+    // },
+    // {
+    //   "after": ["w", "w", "w", "w", "w"],
+    //   "before": ["right"]
+    // },
+    {
+      "before": ["<leader>", "q"],
+      "commands": ["workbench.action.closeEditorsInGroup"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.navigateLeft"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.navigateDown"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.navigateUp"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.navigateRight"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "after": ["\"", "_", "d"],
+      "before": ["<leader>", "d"]
+    },
+    {
+      "after": ["\"", "_", "D"],
+      "before": ["<leader>", "D"]
+    }
+  ],
+  // "vim.easymotion": true,
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.commandlineinprogress": ["#4ec9b0", "#000000"],
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#00bcd4",
+  "vim.statusBarColors.insert": ["#1e1e1e", "#cccccc"],
+  "vim.statusBarColors.normal": ["#424242", "#cccccc"],
+  "vim.statusBarColors.replace": "#d04573",
+  "vim.statusBarColors.searchinprogressmode": ["#e69c2e", "#000000"],
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "vim.statusBarColors.visual": ["#c586c0", "#000000"],
+  "vim.statusBarColors.visualblock": ["#c586c0", "#000000"],
+  "vim.statusBarColors.visualline": ["#c586c0", "#000000"],
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  //   "vim.visualModeKeyBindings": [
+  //     {
+  //       "after": ["k", "k", "k", "k", "k"],
+  //       "before": ["up"]
+  //     },
+  //     {
+  //       "after": ["j", "j", "j", "j", "j"],
+  //       "before": ["down"]
+  //     },
+  //     {
+  //       "after": ["b", "b", "b", "b", "b"],
+  //       "before": ["left"]
+  //     },
+  //     {
+  //       "after": ["w", "w", "w", "w", "w"],
+  //       "before": ["right"]
+  //     }
+  //   ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.menuBarVisibility": "compact",
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.labelFormat": "medium",
+  "workbench.editor.showTabs": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "yaml.schemas": {
+    "file:///home/treeline/.vscode/extensions/atlassian.atlascode-2.8.6/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "zenMode.fullScreen": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#424242",
+    "statusBar.noFolderBackground": "#424242",
+    "statusBar.debuggingBackground": "#424242",
+    "statusBar.foreground": "#cccccc"
+  },
+  "explorer.confirmDelete": false,
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ]
+}
