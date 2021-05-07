@@ -1,6 +1,7 @@
 from themes.material_dark import theme as material_dark
 from themes.ashes_dark import theme as ashes_dark
 from themes.chalk_dark import theme as chalk_dark
+from themes.vscode import theme as vscode
 import subprocess
 import os
 from jinja2 import FileSystemLoader, Environment
@@ -11,8 +12,8 @@ themes = [
     ashes_dark,
     chalk_dark,
 ]
-theme = random.choice(themes)
-font = "MesloLGS NF Regular"
+theme = vscode
+font = "MesloLGM Nerd Font"
 
 class Colors():
     BLACK = theme["color0"]

@@ -1,16 +1,15 @@
 from libqtile import layout
 from utils.theme import Colors
-
-from custom_layouts.margin_max import MarginMax
-
-
+from custom.layouts.margin_max import MarginMax
+from utils.constants import Constants
+    
 layouts = [
     layout.MonadTall(
-        border_focus=Colors.PRIMARY,
-        border_normal=Colors.PRIMARY_ALT,
+        border_focus=Colors.BG_PRIMARY_ALT,
+        border_normal=Colors.BG_SECONDARY,
         border_width=3,
-        margin=12,
+        margin=Constants.MARGIN,
         new_at_current=True,
     ),
-    MarginMax(margin=12),
+    MarginMax(margin=Constants.MARGIN),
 ]
